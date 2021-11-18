@@ -1,3 +1,5 @@
+![CI](https://github.com/philanc/lualzma/workflows/CI/badge.svg)
+
 # lualzma
 
 This lua library wraps the very good LZMA compression algorithm by Igor Pavlov of 7z fame. 
