@@ -10,7 +10,7 @@ LUAEXE= $(LUADIR)/bin/lua
 CC= gcc
 AR= ar
 
-CFLAGS= -Os -fPIC $(LUAINC) $(FUNCS)
+CFLAGS= -Os -fPIC $(LUAINC)
 LDFLAGS= -fPIC 
 
 OBJS= lualzma.o Alloc.o LzFind.o LzmaDec.o LzmaEnc.o LzmaLib.o
